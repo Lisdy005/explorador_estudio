@@ -1,0 +1,223 @@
+import '../models/recursos.dart';
+
+final List<Recurso> recursos = [
+  Recurso(
+    id: 1,
+    titulo: 'Introducción a Flutter',
+    categoria: 'Flutter',
+    autor: 'Equipo ExRE',
+    descripcion: 'Conceptos básicos para comenzar a desarrollar aplicaciones con Flutter.',
+    duracion_min: 30,
+    nivel: 'Básico',
+    tipo: 'Tutorial',
+  ),
+
+  Recurso(
+    id: 2,
+    titulo: 'Widgets Básicos',
+    categoria: 'Flutter',
+    autor: 'Equipo ExRE',
+    descripcion: 'Introducción a los widgets más utilizados para construir interfaces.',
+    duracion_min: 40,
+    nivel: 'Básico',
+    tipo: 'Tutorial',
+  ),
+
+  Recurso(
+    id: 3,
+    titulo: 'Estado en Flutter',
+    categoria: 'Flutter',
+    autor: 'Equipo ExRE',
+    descripcion: 'Conceptos básicos para manejar cambios en la interfaz.',
+    duracion_min: 35,
+    nivel: 'Intermedio',
+    tipo: 'Guía',
+  ),
+
+  Recurso(
+    id: 4,
+    titulo: 'Temas y Estilos',
+    categoria: 'Flutter',
+    autor: 'Equipo ExRE',
+    descripcion: 'Personalización de colores, tipografías y apariencia general.',
+    duracion_min: 25,
+    nivel: 'Intermedio',
+    tipo: 'Guía',
+  ),
+
+  Recurso(
+    id: 5,
+    titulo: 'Ciclo de Vida de una Aplicación',
+    categoria: 'Android',
+    autor: 'Equipo ExRE',
+    descripcion: 'Estados principales de una aplicación Android.',
+    duracion_min: 40,
+    nivel: 'Básico',
+    tipo: 'Guía',
+  ),
+
+  Recurso(
+    id: 6,
+    titulo: 'Permisos en Android',
+    categoria: 'Android',
+    autor: 'Equipo ExRE',
+    descripcion: 'Solicitud y gestión de permisos dentro de una aplicación.',
+    duracion_min: 35,
+    nivel: 'Intermedio',
+    tipo: 'Tutorial',
+  ),
+
+  Recurso(
+    id: 7,
+    titulo: 'Actividad y Contexto',
+    categoria: 'Android',
+    autor: 'Equipo ExRE',
+    descripcion: 'Conceptos fundamentales sobre Activity y Context.',
+    duracion_min: 45,
+    nivel: 'Intermedio',
+    tipo: 'Lectura',
+  ),
+
+  Recurso(
+    id: 8,
+    titulo: 'Almacenamiento Local',
+    categoria: 'Android',
+    autor: 'Equipo ExRE',
+    descripcion: 'Introducción al almacenamiento de datos en el dispositivo.',
+    duracion_min: 50,
+    nivel: 'Intermedio',
+    tipo: 'Tutorial',
+  ),
+
+  Recurso(
+    id: 9,
+    titulo: 'Row y Column',
+    categoria: 'Layouts',
+    autor: 'Equipo ExRE',
+    descripcion: 'Organización de widgets en filas y columnas.',
+    duracion_min: 30,
+    nivel: 'Básico',
+    tipo: 'Tutorial',
+  ),
+
+  Recurso(
+    id: 10,
+    titulo: 'Container y Padding',
+    categoria: 'Layouts',
+    autor: 'Equipo ExRE',
+    descripcion: 'Uso de espacios y contenedores para organizar interfaces.',
+    duracion_min: 35,
+    nivel: 'Básico',
+    tipo: 'Tutorial',
+  ),
+
+  Recurso(
+    id: 11,
+    titulo: 'Diseño Responsivo',
+    categoria: 'Layouts',
+    autor: 'Equipo ExRE',
+    descripcion: 'Adaptación de interfaces a diferentes tamaños de pantalla.',
+    duracion_min: 45,
+    nivel: 'Intermedio',
+    tipo: 'Guía',
+  ),
+
+  Recurso(
+    id: 12,
+    titulo: 'ListView',
+    categoria: 'Scrollables',
+    autor: 'Equipo ExRE',
+    descripcion: 'Creación de listas desplazables en Flutter.',
+    duracion_min: 30,
+    nivel: 'Básico',
+    tipo: 'Tutorial',
+  ),
+
+  Recurso(
+    id: 13,
+    titulo: 'GridView',
+    categoria: 'Scrollables',
+    autor: 'Equipo ExRE',
+    descripcion: 'Presentación de elementos en forma de cuadrícula.',
+    duracion_min: 35,
+    nivel: 'Intermedio',
+    tipo: 'Tutorial',
+  ),
+
+  Recurso(
+    id: 14,
+    titulo: 'SingleChildScrollView',
+    categoria: 'Scrollables',
+    autor: 'Equipo ExRE',
+    descripcion: 'Permite desplazar contenido cuando supera el tamaño de la pantalla.',
+    duracion_min: 25,
+    nivel: 'Básico',
+    tipo: 'Guía',
+  ),
+
+  Recurso(
+    id: 15,
+    titulo: 'Introducción a Slivers',
+    categoria: 'Slivers',
+    autor: 'Equipo ExRE',
+    descripcion: 'Conceptos básicos sobre los widgets Sliver.',
+    duracion_min: 40,
+    nivel: 'Intermedio',
+    tipo: 'Lectura',
+  ),
+
+  Recurso(
+    id: 16,
+    titulo: 'CustomScrollView',
+    categoria: 'Slivers',
+    autor: 'Equipo ExRE',
+    descripcion: 'Uso de múltiples Slivers en una misma vista.',
+    duracion_min: 45,
+    nivel: 'Intermedio',
+    tipo: 'Tutorial',
+  ),
+
+  Recurso(
+    id: 17,
+    titulo: 'SliverAppBar',
+    categoria: 'Slivers',
+    autor: 'Equipo ExRE',
+    descripcion: 'Barra de aplicación flexible basada en Slivers.',
+    duracion_min: 35,
+    nivel: 'Avanzado',
+    tipo: 'Guía',
+  ),
+
+  Recurso(
+    id: 18,
+    titulo: 'Navegación Básica',
+    categoria: 'Navegación',
+    autor: 'Equipo ExRE',
+    descripcion: 'Cambio entre pantallas utilizando Navigator.',
+    duracion_min: 30,
+    nivel: 'Básico',
+    tipo: 'Tutorial',
+  ),
+
+  Recurso(
+    id: 19,
+    titulo: 'GoRouter Básico',
+    categoria: 'Navegación',
+    autor: 'Equipo ExRE',
+    descripcion: 'Introducción al uso de GoRouter en Flutter.',
+    duracion_min: 40,
+    nivel: 'Intermedio',
+    tipo: 'Tutorial',
+  ),
+
+  Recurso(
+    id: 20,
+    titulo: 'Paso de Parámetros',
+    categoria: 'Navegación',
+    autor: 'Equipo ExRE',
+    descripcion: 'Envío y recepción de datos entre pantallas.',
+    duracion_min: 35,
+    nivel: 'Intermedio',
+    tipo: 'Guía',
+  ),
+];
