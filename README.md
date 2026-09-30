@@ -1,1 +1,1 @@
-# explorador_estudio
+Explorador de Recursos es una aplicación móvil desarrollada en Flutter y Dart que permite navegar un catálogo de recursos de aprendizaje (tutoriales, guías y lecturas) sobre Flutter y Android. El usuario puede consultar el catálogo completo, ver el detalle de cada recurso, marcarlo como favorito o como completado, y llevar seguimiento de su progreso a través de una sección de estadísticas que muestra el total de recursos, favoritos, completados y porcentaje de avance.
